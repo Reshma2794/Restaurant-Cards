@@ -1,0 +1,95 @@
+body
+{
+margin:0;
+background-color:#dbdbdb;
+font-family:'Roboto',sans-serif;
+}
+.header
+{
+margin:0;
+text-align:center;
+font-family:Verdana;
+font-weight:normal;
+background-color:black;
+color:white; 
+position:fixed;
+top:0px;
+width:100%;  
+padding:15px;  
+}
+.container
+{
+width:1050px;
+margin:auto;
+}
+.room {
+    background-color: #fff;
+    float:left;
+    margin:80px 70px 0px 0;
+    width: 280px;
+    height:340px;
+}
+.room .img1,.img2,.img3
+{
+width:280px;
+height:190px;
+}
+.room .map-icon
+{
+width:15px;
+height:15px;
+}
+.room h4
+{
+  float:left;
+  margin:0 0 0 25px;
+}
+.room p
+{
+  padding-left:20px;
+  font-size:13px;
+}
+.room h5
+{
+word-spacing:5px;
+font-weight:normal;
+margin:26px;
+color:grey;
+margin-top:22px;
+}
+
+.room h3
+{
+float:right;
+padding:3px;
+background-color:green;
+color:white;
+border-radius:5px;
+margin:5px;
+}
+a.button {
+    padding:17px;
+    font-size:12px;
+    text-decoration:none;
+    background-color:transparent;
+    border:1px solid #dbdbdb;
+    display:block;
+    text-align:center;
+    width:260px;
+    color:black;
+}
+.room a.button:hover
+{
+background-color:green;
+color:white;
+width:246px;
+}
+@media (max-width:528px) and (orientation:portrait)
+{
+  .room
+  {
+    clear:both;
+    margin-left:40px;
+    margin-bottom:0px;
+  }
+}
